@@ -6,6 +6,7 @@
 ## 페이지 구조 분석
 
 <img width="684" height="187" alt="image" src="https://github.com/user-attachments/assets/26f5480b-8b8d-4bec-8958-cdb7b4887ed7" />
+
 사용자 입력한 uid 값이 필터링 없이 SQL 문자열에 그대로 이어 붙이는 구조이다.
 따라서 입력값을 조작하면 쿼리 구조를 변경할 수 있다.
 
