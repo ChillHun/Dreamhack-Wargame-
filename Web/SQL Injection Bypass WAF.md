@@ -29,7 +29,7 @@ ADMIN을 대문자로 입력하면 입력이 되는걸 볼 수 있다.
 
 웹페이지는 uid에서만 출력이되니 null,upw,null처럼 두번째에 upw를 넣어야 한다.
 그래서 UNION을 이용해서 upw 값을 uid가 출력되는 컬럼 위치에 삽입하여 출력한다.
-여기서 조심해야 할 점은 SELECT * 기준으로 컬럼 3개를 반환되므로 UNION에서도 3를 맞춰서 입력 해야한다.
+여기서 조심해야 할 점은 SELECT * 기준으로 컬럼 3개를 반환되므로 UNION에서도 3개를 맞춰서 입력 해야한다.
 
 사용 코드: 'UNION	SELECT	null,upw,null	FROM	user	WHERE	uid='ADMIN (띄어쓰기는 TAB으로 우회)
 
